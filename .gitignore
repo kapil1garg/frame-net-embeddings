@@ -1,6 +1,20 @@
 
-# Created by https://www.gitignore.io/api/osx,linux,python,pycharm,windows,sublimetext
-# Edit at https://www.gitignore.io/?templates=osx,linux,python,pycharm,windows,sublimetext
+# Created by https://www.gitignore.io/api/osx,linux,python,jupyternotebooks,pycharm,windows,sublimetext
+# Edit at https://www.gitignore.io/?templates=osx,linux,python,jupyternotebooks,pycharm,windows,sublimetext
+
+### JupyterNotebooks ###
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
 
 ### Linux ###
 *~
@@ -296,4 +310,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/osx,linux,python,pycharm,windows,sublimetext
+# End of https://www.gitignore.io/api/osx,linux,python,jupyternotebooks,pycharm,windows,sublimetext
